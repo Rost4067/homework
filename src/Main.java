@@ -3,15 +3,12 @@ public class Main {
         System.out.println("Hello world!");
 
 
-        int age = 18;
-        if (age < 0) {
-            System.out.println("become an adult");
-
-        } else if (age > 18) {
-            System.out.println("become an adult");
-        }
-        else {
-            System.out.println("underage");
+        int i = 1,sum = 50;
+        while (i <=50)
+        {
+            i++;
+            sum += i;
         }
     }
-}
+    }
+
